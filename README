@@ -1,0 +1,11 @@
+Timed_Digital_Output - Class for toggling an Arduino digital output pin at a
+set frequency/period and duty cycle, using the micros() function for timing.
+Requires constant polling by loop() to operate. Quite naive.
+
+Currently, you must copy the .cpp and .h file into the same directory as the
+Arduino .ino file for the sketch to properly compile. This wouldn't be
+necessary if I added this to the Arduino Library Manager, but that's extra work
+and I'm not *that* invested.
+
+See the TDO_example folder for a demonstration of the class; everything is
+pretty simple and self-explanatory.
